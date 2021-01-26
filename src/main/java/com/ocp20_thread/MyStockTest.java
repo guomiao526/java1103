@@ -1,4 +1,4 @@
-package ocp20_thread;
+package com.ocp20_thread;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
