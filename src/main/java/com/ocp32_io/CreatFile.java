@@ -7,7 +7,7 @@ public class CreatFile {
 
     public static void main(String[] args) {
         String path = "src\\main\\java\\com\\ocp32_io\\files";
-        String fname = "weather.json";
+        String fname = "data.txt";
         File file = new File(path + File.separator + fname);
         if (file.exists()) {
             System.out.printf("%s 檔案已存在\n", file);
